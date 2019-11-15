@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3C54A8</color>
+    <color name="colorPrimaryDark">#354DA0</color>
+    <color name="colorAccent">#9ACA3C</color>
+    <color name="transparentColorAccent">#e89aca3c</color>
+    <color name="timeline_green">#417505</color>
+    <color name="button2Color">#DEE2EC</color>
+    <color name="tab_color">#3C54A8</color>
+
+    <color name="text_color">#5C903B</color>
+    <color name="login_tab">#5C903D</color>
+    <color name="extra_dark_green">#3B7836</color>
+    <color name="black_color">#231f20</color>
+    <color name="gray_color">#f1f2f2</color>
+    <color name="darker_gray_color">#4d4d4f</color>
+    <color name="red_cart">#DB4437</color>
+
+</resources>

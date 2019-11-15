@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/otp_verification_frame"
+    android:background="#4069B8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="24dp">
+        <RelativeLayout
+            android:id="@+id/ll_otp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_verification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buy or Sell"
+                android:textColor="#ffffff"
+                android:layout_marginTop="24dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_alignStart="@+id/otp_sent_to"/>
+            <TextView
+                android:id="@+id/otp_sent_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="8dp"
+                android:text="Please enter the expected Quantity "
+                android:textColor="#D1D1D1"
+                android:layout_below="@+id/tv_verification"/>
+
+            <EditText
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/otp_sent_to"
+                android:id="@+id/enter_qnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="6"
+                android:hint="Enter Quantity"
+                android:textColorHint="#ffffff"
+                android:backgroundTint="#ffffff"
+                android:textSize="14sp"
+                android:textColor="#ffffff"/>
+
+
+            <EditText
+                android:layout_marginTop="80dp"
+                android:layout_below="@+id/otp_sent_to"
+                android:id="@+id/enter_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Type (Buy or Sell)"
+                android:textColorHint="#ffffff"
+                android:backgroundTint="#ffffff"
+                android:textSize="14sp"
+                android:textColor="#ffffff"/>
+
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_height="wrap_content"
+            android:text="Buy or Sell"
+            android:textAlignment="center"
+            android:ems="19"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="#4069B8"
+            android:background="@drawable/button_border_blue"
+            android:layout_below="@+id/ll_otp"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
